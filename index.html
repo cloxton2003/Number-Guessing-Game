@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Number Guessing Game</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+		<div class="flexContainerOne instructions">
+			<h1><strong>Number Guessing Game</strong></h1>
+			<p>
+				Try and guess a random number between 1 and 100.
+				You have 10 attempts to guess the right number
+			</p>
+		</div>
+			<form class="flexContainerTwo form" id="gameForm">
+				<label id="lowOrHi">Guess a Number</label>
+				<input type="text" id="guessForm" class="inputText">
+				<input type="button" value="Submit Guess" id="enter" class="inputButton">
+			</form>
+		<div class="flexContainerThree guesses" id="div2">
+			<p>Previous Guess: <span id="pGuess"></span></p>
+			<p>Guesses Remaining: <span id="rGuess"></span></p>
+		</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

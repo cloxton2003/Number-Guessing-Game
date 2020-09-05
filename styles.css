@@ -1,0 +1,40 @@
+.flexContainerOne {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+
+.instructions {
+	background-color: #e6e6ff;
+	min-height: 150px;
+}
+
+.flexContainerTwo {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.form {
+	background-color: #b3b3ff;
+	min-height: 300px;	
+}
+
+
+.flexContainerThree {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+
+.guesses {
+	background-color: #e6e6ff;
+	padding-left: 20px;
+}
+
+.restartStyle {
+	height: 100 px;
+	width: 300 px;
+}
